@@ -1,0 +1,91 @@
+{
+   "lang":"fr_FR",
+   "scope":"open",
+   "returnCode":200,
+   "shipment":{
+      "idShip":"6G57139237432",
+      "holder":4,
+      "product":"colissimo",
+      "isFinal":true,
+      "deliveryDate":"2021-01-11T10:43:59+01:00",
+      "entryDate":"2021-01-09T17:03:15+01:00",
+      "timeline":[
+         {
+            "shortLabel":"Votre colis est pris en charge",
+            "longLabel":"",
+            "id":1,
+            "date":"2021-01-09T17:03:15+01:00",
+            "country":"",
+            "status":true,
+            "type":1
+         },
+         {
+            "shortLabel":"Il est en traitement dans notre réseau.",
+            "longLabel":"",
+            "id":2,
+            "country":"",
+            "status":true,
+            "type":1
+         },
+         {
+            "shortLabel":"Votre colis est arrivé sur son site de livraison.",
+            "longLabel":"",
+            "id":3,
+            "country":"",
+            "status":true,
+            "type":1
+         },
+         {
+            "shortLabel":"Nous préparons votre colis pour sa livraison.",
+            "longLabel":"",
+            "id":4,
+            "country":"",
+            "status":true,
+            "type":1
+         },
+         {
+            "shortLabel":"Votre colis a été livré",
+            "longLabel":"",
+            "id":5,
+            "date":"2021-01-11T10:43:59+01:00",
+            "country":"",
+            "status":true,
+            "type":1
+         }
+      ],
+      "event":[
+         {
+            "order":100,
+            "label":"Votre colis est livré.",
+            "date":"2021-01-11T10:43:59+01:00",
+            "code":"DI1"
+         },
+         {
+            "order":99,
+            "label":"Votre colis est dans le site de livraison qui dessert votre adresse. Nous le préparons pour le mettre en livraison.",
+            "date":"2021-01-11T07:51:30+01:00",
+            "code":"MD2"
+         },
+         {
+            "order":98,
+            "label":"Votre colis est en transit sur nos plateformes logistiques pour vous être livré le plus rapidement possible.",
+            "date":"2021-01-09T17:03:15+01:00",
+            "code":"ET1"
+         },
+         {
+            "order":97,
+            "label":"Votre Colissimo va bientôt nous être confié ! Il est en cours de préparation chez votre expéditeur.",
+            "date":"2021-01-09T01:20:00+01:00",
+            "code":"DR1"
+         }
+      ],
+      "contextData":{
+         "deliveryChoice":{
+            "deliveryChoice":0
+         },
+         "originCountry":"FR",
+         "arrivalCountry":"FR"
+      },
+      "url":"https://www.laposte.fr/outils/suivre-vos-envois?code=6G57139237432"
+   }
+}
